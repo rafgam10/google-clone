@@ -1,0 +1,74 @@
+:root {
+    --black-border: #444;
+    --black: #333;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--black);
+}
+
+.barra_tarefa {
+    height:75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.texto {
+    color: white;
+    text-decoration: none;
+    margin: 15px 15px 10px 15px;
+    
+    font: 17px Roboto,Arial,sans-serif;
+}
+.texto:hover {
+    color: white;
+    text-decoration:underline;
+    font: 17px Roboto,Arial,sans-serif;
+}
+
+.nav-box {
+    margin-top: 6px;
+    width: 55px;
+    height: 55px;
+}
+.nav-box:hover {
+    width: 55px;
+    height: 56px;
+    background-color: var(--black-border);
+    border-radius: 60px;
+}
+.nav-bar {
+    color: white;
+}
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin: 15px;
+}
+
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+#logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
