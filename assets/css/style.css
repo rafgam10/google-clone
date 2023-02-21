@@ -1,6 +1,7 @@
 :root {
     --black-border: #444;
     --black: #333;
+    --Roboto: 'Roboto Mono', monospace;
 }
 
 * {
@@ -55,7 +56,6 @@ body {
     margin: 15px;
 }
 
-
 .perfil {
     width: 40px;
     height: 40px;
@@ -63,12 +63,42 @@ body {
     margin: 15px;
     margin-top: 15px;
     margin-left: 10px;
+    cursor: pointer;
 }
-
 
 #logo-box {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+}
+
+.barraP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.micro, .search {
+    font-size: 25px;
+}
+
+.textoP {
+    color: #555;
+    font-family: var(--Roboto);
+    padding-right: 100px;
+    font-size: 17px;
+}
+
+.barra-pesquisa {
+    width: 561px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
